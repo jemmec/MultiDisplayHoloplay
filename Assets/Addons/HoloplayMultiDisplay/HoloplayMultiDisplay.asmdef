@@ -1,0 +1,18 @@
+{
+    "name": "HoloplayMultiDisplay",
+    "rootNamespace": "Jemmec.MultiDisplay",
+    "references": [
+        "GUID:c041de2de0820a542af929f3e59032c0",
+        "GUID:26369affaa47f3f44ba8583606a9ba40",
+        "GUID:a203f452412b9e249bc12148d43b1cc9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

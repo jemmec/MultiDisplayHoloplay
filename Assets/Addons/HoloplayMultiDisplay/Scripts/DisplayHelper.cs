@@ -22,6 +22,12 @@ namespace Jemmec.MultiDisplay
         [SerializeField]
         private DisplayHelperType _type;
 
+        public DisplayHelperType Type
+        {
+            get => _type;
+            set => _type = value;
+        }
+
         [SerializeField]
         private Canvas _canvas;
 

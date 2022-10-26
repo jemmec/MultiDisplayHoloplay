@@ -22,6 +22,14 @@ namespace Jemmec.MultiDisplay
 
         void Start()
         {
+            StartCoroutine(StartRoutine());
+        }
+
+        IEnumerator StartRoutine()
+        {
+            //Wait two frames so it overrides Holoplay's settings
+            yield return new WaitForEndOfFrame();
+            yield return new WaitForEndOfFrame();
             UpdateDisplays();
         }
 

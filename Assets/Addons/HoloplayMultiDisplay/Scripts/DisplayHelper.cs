@@ -40,7 +40,7 @@ namespace Jemmec.MultiDisplay
         public void UpdateDisplayNumber(int number)
         {
             //Because Holoplay only supports 8 displays *shrug*
-            if (number < 0 || number > 8) return;
+            if (number < 0 || number > 7) return;
             if (_canvas)
                 _canvas.targetDisplay = number;
             if (_camera)

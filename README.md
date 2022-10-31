@@ -15,4 +15,4 @@ Use the latest version of `Holoplay`
 
 ## Known Issues
 
-- Sometimes the displays are reversed (Holographic display doesn't appear on Looking Glass) just swap the display numbers around in the `DisplayManager` to fix this issue.
+- Sometimes the displays are reversed (Holoplay Capture display doesn't appear on Looking Glass) just swap the display numbers around in the `DisplayManager` to fix this issue.
